@@ -1,9 +1,15 @@
 import React from 'react'
-
+import HeroSection from './components/HeroSection/HeroSection'
+import AboutSection from './components/AboutSection/AboutSection'
+import ProjectsSection from './components/ProjectsSection/ProjectsSection'
 
 const App = () => {
   return (
-    <h1>hello world</h1>
+    <div className='container'>
+      <HeroSection/>
+      <AboutSection/>
+      <ProjectsSection/>
+    </div>
   )
 }
 
