@@ -2,9 +2,9 @@ import React from 'react'
 import './Heading.css'
 
 
-const Heading = () => {
+const Heading = (props) => {
   return (
-  <h1 className='heading-h1'>Заголовок</h1>
+  <h1 className='heading-h1'>{props.text}</h1>
   )
 }
 
